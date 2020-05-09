@@ -2,7 +2,7 @@ package br.com.dsasoft.challenge;
 
 public class SolutionImpl implements Solution {
 
-	private void bubbleSortIntArray(int[] intArray) {
+	private void bubbleSortIntArray(Integer[] intArray) {
 		boolean swapped = true;
 		int j = 0;
 		int tmp;
@@ -20,7 +20,7 @@ public class SolutionImpl implements Solution {
 		}
 	}
 
-	public int candy(int[] ratings) {
+	public int candy(Integer[] ratings) {
 		int sum = 0;
 		int candy = 0;
 		int lastGrade = 0;
