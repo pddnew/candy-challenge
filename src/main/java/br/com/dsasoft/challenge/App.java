@@ -15,6 +15,5 @@ package br.com.dsasoft.challenge;
  */
 public class App {
 	public static void main(String[] args) {
-		new SolutionTest().testMinimumCandies();
 	}
 }
